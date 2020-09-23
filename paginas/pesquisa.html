@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+
+<head>
+
+	<title>Pandemic Life</title>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" type="text/css" href="../css/menu.css">
+	<link rel="stylesheet" type="text/css" href="../css/corpo.css">
+	<link rel="stylesheet" type="text/css" href="../css/txt.css">
+	<link rel="stylesheet" type="text/css" href="../css/img.css">
+	<link rel="stylesheet" type="text/css" href="../css/slideshow.css">
+	<link rel="stylesheet" type="text/css" href="../css/pesquisa.css">
+	<link rel="shortcut icon" type="image/x-icon" href="../imagens/coracao.ico">
+	
+</head>
+	
+<!-- LogoTipo -->
+	<img id="img-logo" src="../imagens/pandemic.jpg" title="Pademic Logo">
+
+<!-- Slogan -->
+<div id="div-titulo">
+
+	<a id="titulo">Pandemic Life</a><br>
+	<a id="sub-titulo"> Cuidados com a sua Saúde</a>
+</div>
+
+	<!-- Redes Sociais -->
+<div id="redes">
+
+	<img id="img-rede" src="../imagens/you.png">
+	<img id="img-rede" src="../imagens/twit.png">
+	<img id="img-rede" src="../imagens/din.png">
+	<img id="img-rede" src="../imagens/insta.png">
+	<img id="img-rede" src="../imagens/face.png">
+</div>
+<body id="pesquisa">
+<!-- Menu -->
+<section>
+		
+	<nav>
+		<div class="topnav" id="myTopnav">
+
+			<a href="../index.html" class="active">Ínicio</a>
+			<a href="educacao.html">Educação</a>
+
+		<div class="dropdown">
+
+			<button class="dropbtn">Saúde</button>
+				<div class="dropdownsub">	
+				  <a href="alimentacao.html">Alimentação</a>
+				  <a href="esporte.html">Esportes</a>
+				  <a href="cuidados.html">Cuidados Dentro e fora de Casa</a>
+				  <a href="animais.html">Animais</a>
+				</div>
+			</div>
+
+		<div class="dropdown">
+			<button class="dropbtn">Finanças</button>
+				<div class="dropdownsub">
+					<a href="pessoal.html">Pessoal</a>
+					<a href="empresas.html">Empresas</a>
+				</div>			
+		</div> 	
+
+			<a href="pesquisa.html" class="pesquisa">Teste Da Pandemia</a>
+			<a href="javascript:void(0);" style="font-size:15px;" class="icon" 
+			onclick="myFunction()">&#9776;</a>
+		</div>
+	</nav>
+
+</section>
+<!-- Javascript do menu -->
+<script type="text/javascript" src="../js/menu.js"></script>
+
+<!-- Titulo Campo de Pesquisa-->
+<h1 id="titulo-pesquisa">Como Você Está na Pandemia?</h1>
+
+<!-- Conteúdo -->
+<div id="div-pesquisa">
+
+<section> 
+
+		
+
+	<article>
+			
+		<form action="recebePesquisa.php" method="post">
+			<fieldset>
+					
+				<fieldset class="bloco">
+						
+					<div class="dados">
+
+						<label>Nome:</label>
+						<input type="text" name="nome" required>
+
+					</div>
+
+				</fieldset>
+
+				<fieldset class="bloco">
+						
+					<div class="dados">
+
+						<label>Sobrenome:</label>
+						<input type="text" name="sobrenome" required>
+							
+					</div>
+
+				</fieldset>
+
+				<fieldset class="bloco">
+						
+					<div class="dados">
+
+						<label>Data de nascimento:</label>
+						<input type="date" name="data" max="2020-12-31" min="1910-01-01" required>
+							
+					</div>
+
+				</fieldset>
+
+				<fieldset class="bloco">
+						
+					<div class="dados">
+
+						<label>Sexo:</label>
+						<input type="radio" name="sexo" value="M">Masculino
+						<input type="radio" name="sexo" value="F">Feminino
+
+					</div>
+
+				</fieldset>	
+					
+				<fieldset class="bloco">
+						
+					<div class="dados">
+
+						<label>Endereço:</label>
+						<input type="text" name="endereco" required>
+							
+					</div>
+
+				</fieldset>
+
+
+
+				<fieldset class="bloco">
+						
+					<div class="dados">
+
+						<label>Bairro:</label>
+						<input type="text" name="bairro" required>
+							
+					</div>
+
+				</fieldset>
+
+				<fieldset class="bloco">
+						
+					<div class="dados">
+
+						<label>Cidade:</label>
+						<input type="text" name="cidade" required>
+							
+					</div>
+				</fieldset>
+
+				<fieldset class="bloco">
+						
+					<div class="dados">
+
+						<label>Estado:</label>
+
+						<select name="estado" required>
+
+							<option selected="" value="">Selecione o Estado (UF)</option>
+							<option value="Acre">Acre</option>
+							<option value="Alagoas">Alagoas</option>
+							<option value="Amapá">Amapá</option>
+							<option value="Amazonas">Amazonas</option>
+							<option value="Bahia">Bahia</option>
+							<option value="Ceará">Ceará</option>
+							<option value="Distrito Federal">Distrito Federal</option>
+							<option value="Espírito Santo">Espírito Santo</option>
+							<option value="Goiás">Goiás</option>
+							<option value="Maranhão">Maranhão</option>
+							<option value="Mato Grosso">Mato Grosso</option>
+							<option value="Mato Grosso do Sul">Mato Grosso do Sul</option>
+							<option value="Minas Gerais">Minas Gerais</option>
+							<option value="Pará">Pará</option>
+							<option value="Paraíba">Paraíba</option>
+							<option value="Paraná">Paraná</option>
+							<option value="Pernambuco">Pernambuco</option>
+							<option value="Piauí">Piauí</option>
+							<option value="Rio de Janeiro">Rio de Janeiro</option>
+							<option value="Rio Grande do Sul">Rio Grande do Sul</option>
+							<option value="Rio Grande do Norte">Rio Grande do Norte</option>
+							<option value="Rondônia">Rondônia</option>
+							<option value="Roraima">Roraima</option>
+							<option value="Santa Catarina">Santa Catarina</option>
+							<option value="São Paulo">São Paulo</option>
+							<option value="Sergipe">Sergipe</option>
+							<option value="Tocantins">Tocantins</option>
+						</select>
+							
+					</div>
+
+				</fieldset>
+				
+				<fieldset class="bloco">
+						
+					<div class="dados">
+
+						<label><strong>Como você se sente nessa Pandemia:</strong></label><br>
+
+							<div class="radiobtn">
+						<input type="radio" name="sentimento" value="Estou bem,tudo vai passar">Estou bem,tudo vai passar.<br>
+
+				  		<input type="radio" name="sentimento" value="Estou inseguro">Estou inseguro.
+							</div>
+
+					</div>
+
+				</fieldset>
+
+				<fieldset class="bloco">
+						
+					<div class="dados">
+
+						<label><strong>Como anda seu nivel de estresse:</strong></label><br>
+
+							<div class="radiobtn">
+						<input type="radio" name="estresse" value="Menor do que antes">Menor do que antes.<br>
+
+						<input type="radio" name="estresse" value="Igual ao que era antesl">Igual ao que era antes.<br>
+
+						<input type="radio" name="estresse" value="Maior do que era antes">Maior do que era antes.
+							</div>
+					</div>
+
+				</fieldset>
+				
+				<fieldset class="bloco">
+						
+					<div class="dados">
+
+						<label><strong>Você tem tido dificuldades de dormir durante a noite:</strong></label><br>
+
+							<div class="radiobtn4">
+						<input type="radio" name="dormir" value="Não está mais facil de dormir atualmente do que antes">Não, está mais facil de dormir atualmente do que antes da Pandemia.<br>
+
+						<input type="radio" name="dormir" value="Não houve alteração no meu sono">Não houve alteração no meu sono.<br>
+
+						<input type="radio" name="dormir" value="Sim está mais dificil dormir atualmente do que antes da Pandemia">Sim, está mais dificil dormir atualmente do que antes da Pandemia.
+							</div>
+					</div>
+
+				</fieldset>
+
+				<fieldset class="bloco">
+						
+					<div class="dados">
+
+						<label><strong>Como está sua disposição para realizar suas tarefas:</strong></label><br>
+
+							<div class="radiobtn">
+						<input type="radio" name="disposicao" value="Menor do que antes">Menor do que antes.<br>
+
+						<input type="radio" name="disposicao" value="Igual ao que era antes">Igual ao que era antes.<br>
+
+						<input type="radio" name="disposicao" value="Maior do que era antes">Maior do que era antes.
+							</div>
+					</div>
+
+				</fieldset>
+
+				<fieldset class="bloco">
+						
+					<div class="dados">
+
+						<label><strong>Como você está se sentindo durante o isolamento social:</strong></label><br>
+
+							<div class="radiobtn">
+						<input type="radio" name="isolamento" value="Bem, não tive problemas">Bem, não tive problemas.<br>
+
+						<input type="radio" name="isolamento" value="Um pouco solitário">Um pouco solitário.<br>
+
+						<input type="radio" name="isolamento" value="Bastante solitário">Bastante solitário.
+							</div>
+					</div>
+
+				</fieldset>
+
+				<fieldset class="bloco">
+						
+					<div class="dados">
+
+						
+						<label><strong>Como anda sua alimentação:</strong></label><br>
+
+							<div class="radiobtn">
+						<input type="radio" name="alimentacao" value="Comendo menos">Comendo menos.<br>
+
+						<input type="radio" name="alimentacao" value="Comendo em excesso">Comendo em excesso.<br>
+
+						<input type="radio" name="alimentacao" value="Comendo da mesma forma que antes da Pandemia">Comendo da mesma forma que antes da Pandemia.
+							</div>
+					</div>
+
+				</fieldset>
+
+				<fieldset class="bloco">
+						
+					<div class="dados">
+
+						<label><strong>Tem tomado bebidas alcóolicas:</strong></label><br>
+							
+							<div class="radiobtn">
+						<input type="radio" name="bebidas" value="Sim moderadamente">Sim moderadamente.<br>
+
+						<input type="radio" name="bebidas" value="Não">Não.<br>
+
+						<input type="radio" name="bebidas" value="Sim tenho bebido em excesso">Sim tenho bebido em excesso.
+							</div>
+					</div>
+
+				</fieldset>
+
+				<fieldset class="bloco">
+						
+					<div class="dados">
+
+						<label><strong>Qual sentimento ou emoção mais frequente para você no isolamento social:</strong></label><br>
+
+							<div class="radiobtn">
+						<input type="radio" name="emocao" value="Alegria">Alegria<br>
+						<input type="radio" name="emocao" value="Angústia">Angústia<br>
+						<input type="radio" name="emocao" value="Compaixão">Compaixão<br>
+						<input type="radio" name="emocao" value="Desânimo">Desânimo<br>
+						<input type="radio" name="emocao" value="Estresse">Estresse<br>
+						<input type="radio" name="emocao" value="Frustração">Frustração<br>
+						<input type="radio" name="emocao" value="Gratidão">Gratidão<br>
+						<input type="radio" name="emocao" value="Medo">Medo<br>
+						<input type="radio" name="emocao" value="Otimismo">Otimismo<br>
+						<input type="radio" name="emocao" value="Esperança">Esperança<br>
+						<input type="radio" name="emocao" value="Raiva">Raiva<br>
+						<input type="radio" name="emocao" value="Tristeza">Tristeza<br>
+							</div>
+					</div>
+
+				</fieldset>
+
+				<fieldset class="bloco">
+						
+					<div class="dados">
+
+						<label><strong>Como você observa a necessidade do isolamento social:</strong></label><br>
+
+							<div class="radiobtn">
+						<input type="radio" name="necessidade" value="Acho que é necessário">Acho que é necessário.<br>
+
+						<input type="radio" name="necessidade" value="Acho que se todos se higienizar podemos ter a vida normal">Acho que se todos se higienizar podemos ter a vida normal.<br>
+
+						<input type="radio" name="necessidade" value="Acho desnecessário">Acho desnecessário.
+							</div>
+					</div>
+
+				</fieldset>
+
+				<fieldset class="bloco">
+						
+					<div class="dados">
+
+						<label><strong>Você esta fazendo o isolamento social:</strong></label><br>
+
+							<div class="radiobtn">
+						<input type="radio" name="fazendo" value="Sim, tenho me mantido em isolamento social">Sim, tenho me mantido em isolamento social.<br>
+
+						<input type="radio" name="fazendo" value="Quase todos os dias">Quase todos os dias.<br>
+
+						<input type="radio" name="fazendo" value="Não, tenho feito isolamento social">Não, tenho feito isolamento social.
+							</div>
+					</div>
+
+				</fieldset>
+
+				<fieldset class="bloco">
+						
+					<div class="dados">
+
+						<label><strong>Você tem feito bom uso de seu tempo no isolamento social:</strong></label><br>
+
+							<div class="radiobtn">
+						<input type="radio" name="tempo" value="Sim">Sim.<br>
+
+						<input type="radio" name="tempo" value="Sim, quase todos os dias">Sim, quase todos os dias.<br>
+
+						<input type="radio" name="tempo" value="Não, pois continuo trabalhando home-office">Não, pois continuo trabalhando home-office.<br>
+
+						<input type="radio" name="tempo" value="Não">Não.
+							</div>
+					</div>
+
+				</fieldset>
+
+				<fieldset class="bloco">
+						
+					<div class="dados">
+
+						<label><strong>Sua vida financeira foi ou será afetada pela Pandemia:</strong></label><br>
+
+							<div class="radiobtn">
+						<input type="radio" name="financeira" value="Não, Continuo bem">Não, Continuo bem.<br>
+
+						<input type="radio" name="financeira" value="Sim, posso perder emprego">Sim, posso perder emprego.<br>
+
+						<input type="radio" name="financeira" value="Razoavelmente afetada">Razoavelmente afetada.<br>
+							</div>
+					</div>
+
+				</fieldset>
+
+				<fieldset class="bloco">
+						
+					<div class="dados">
+
+						<label><strong>Como você acredita que será o comportamento das pessoas, após o termino do isolamento social:</strong></label><br>
+
+							<div class="radiobtn">
+						<input type="radio" name="termino" value="Voltará imediatamente a ser como era antes">Voltará imediatamente a ser como era antes.<br>
+
+						<input type="radio" name="termino" value="Levará muito tempo para voltar a ser como era antes">Levará muito tempo para voltar a ser como era antes.<br>
+
+						<input type="radio" name="termino" value="Acredito que o comportamento pessoal não será como era antes">Acredito que o comportamento pessoal não será como era antes.<br>
+							</div>
+					</div>
+
+				</fieldset>
+
+				<fieldset class="bloco">
+						
+					<div class="dados">
+
+						<label>Nos conte um pouco mais sobre seu isolamento:</label>
+
+						<textarea name="obs" rows="4" cols="30"></textarea>
+							
+					</div>
+
+				</fieldset>
+
+					<button type="submit" class="botao" >Enviar</button>
+
+				</fieldset>
+
+		</form>
+
+	</article>
+</section>
+
+</div>
+
+
+
+
+
+<!-- Rodapé -->	
+<footer>
+    <p class="main">
+        2020 © Gabriel Almeida.
+    </p>
+</footer>
+
+</body>
+</html>

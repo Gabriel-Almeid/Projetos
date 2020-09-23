@@ -1,0 +1,139 @@
+article {
+  padding: 10px;
+  width: 100%;
+  height: auto;
+}
+
+
+fieldset{
+
+	border:0;
+	text-align: center;
+	font-family: arial;
+	font-size: 16px;
+	font-weight: bold;
+
+}
+
+
+.dados{
+	margin-bottom: 15px;
+}
+
+.dados label {
+
+
+	margin-bottom: 5px;
+	color: black;
+	font-family: Impact, Charcoal, sans-serif;
+	font-size: 22px;
+	-webkit-text-stroke-width: 1px;
+  	-webkit-text-stroke-color:#FFFAFA;
+	display: block;
+
+}
+
+.dados input[type="text"],
+.dados input[type="date"],
+.dados select,
+.dados textarea {
+
+	
+	padding: 3px;
+	border: 1px solid #ccc;
+	box-shadow: 10px 10px 8px #888888;
+}
+
+.dados input[type="text"],
+.dados select,
+.dados textarea {
+	color:;
+
+	width: 225px;
+
+}
+
+.radiobtn{
+
+	margin-left: 35%;
+	text-align: left;
+}
+.radiobtn4{
+
+	margin-left: 18%;
+	text-align: left;
+}
+
+
+
+.dados input:focus,.dados select:focus, .dados textarea:focus{
+
+	
+	outline:none;
+	background-color: #888888;
+}
+
+
+
+.dados{
+	color:#666;
+}
+
+.botao{
+
+	font-size: 18px;
+	border:1;
+	padding: 5px 7px;
+	
+}
+
+.botao:hover{
+
+	background-color:#DCDCDC ;
+}
+.botao, select{
+
+	cursor: pointer;
+}
+
+/* Configuração da Div de pesquisa*/
+#div-pesquisa{
+
+	background-color: #F5F5F5;
+	box-shadow: 5px 5px 5px #828282;
+	padding-top:;
+	width: 60%;
+	height: auto;
+	margin-left: 20%;
+	margin-bottom: 50px;
+
+}
+
+@media(max-width: 600px){
+
+/* Configuração da Div de pesquisa*/
+#div-pesquisa{
+
+	background-color: #F5F5F5;
+	box-shadow: 5px 5px 5px #828282;
+	padding-top:;
+	width: 90%;
+	height: auto;
+	margin-left: 4%;
+	margin-bottom: 50px;
+
+}
+.radiobtn{
+
+	margin-left:0;
+	text-align: left;
+	font-size: 14px;
+}
+.radiobtn4{
+
+	margin-left: 0;
+	text-align: left;
+	font-size: 12px;
+}
+
+}

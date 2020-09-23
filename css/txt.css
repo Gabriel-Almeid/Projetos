@@ -1,0 +1,508 @@
+/* Configuração do texto do Conteúdo*/
+#txtpandemia {
+
+	float: center;
+	text-align: left;
+	font-family:'Source Sans Pro', sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+/* Configuração da tag p*/
+p{
+
+	margin-top: 0px;
+	margin: 0 0 10px;
+	display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 5px;
+    margin-inline-end: 0px;
+}
+
+/* Configuração do autor*/
+#autor{
+
+	font-size: 0.8em;
+	font-weight: 600;
+}
+
+/* Configuração da Div (Conteúdo)*/
+#txtdiv{
+
+	background-color: #EEE9E9;
+	box-shadow: 5px 5px 5px #828282;
+	padding-top:;
+	width: 60%;
+	height: auto;
+	margin-left: 12%;
+	margin-bottom: 50px;
+}
+/* Configuração da Div (Conteúdo)P/Index*/
+#txtdiv-index{
+
+	background-color: #EEE9E9;
+	box-shadow: 5px 5px 5px #828282;
+	padding-top:;
+	width: 60%;
+	height: auto;
+	margin-left:20%;
+	margin-bottom: 50px;
+}
+
+/* Configuração do Titulo do Conteudo da p/Index*/
+#title-index{
+
+	background-color: #F5F5F5;
+	box-shadow: 3px 2px 5px #828282;
+	border-radius: 3px;
+	font-family: 'Slabo 27px', serif;
+	text-align: center;
+	width:44%;
+	margin-top: 8%;
+	margin-left: 20%;
+}
+
+/* Configuração do Titulo do Conteudo da p/animais */
+#title-pet{
+	background-color: #F5F5F5;
+	box-shadow: 3px 2px 5px #828282;
+	border-radius: 3px;
+	font-family: 'Slabo 27px', serif;
+	text-align: center;
+	width:58%;
+	margin-top: 4%;
+	margin-left: 12%;
+}
+
+/* Configuração do sub-Titulo do Conteudo da p/animais*/
+#sub-pet{
+
+	background-color: #F5F5F5;
+	box-shadow: 3px 2px 5px #828282;
+	border-radius: 3px;
+	text-align: center;
+	width: 24%;
+	font-size: 17px;
+	margin-top: 0;
+	margin-left: 30%;
+	margin-bottom:20px;
+}
+
+/* Configuração do Titulo do Conteudo da p/alimentacao */
+#title-alimentacao{
+
+	background-color: #F5F5F5;
+	box-shadow: 3px 2px 5px #828282;
+	border-radius: 3px;
+	font-family: 'Slabo 27px', serif;
+	text-align: center;
+	width:60%;
+	margin-top: 4%;
+	margin-left: 12%;	
+}
+
+/* Configuração do sub-Titulo do Conteudo da p/alimentacao*/
+#sub-alimentacao{
+
+	background-color: #F5F5F5;
+	box-shadow: 3px 2px 5px #828282;
+	border-radius: 3px;
+	text-align: center;
+	width: 46%;
+	font-size: 17px;
+	margin-top: 0;
+	margin-left: 20%;
+	margin-bottom:20px;
+}
+
+/* Configuração do Titulo do Conteudo da p/conteudo */
+#title-cuidados{
+	
+	background-color: #F5F5F5;
+	box-shadow: 3px 2px 5px #828282;
+	border-radius: 3px;
+	font-family: 'Slabo 27px', serif;
+	text-align: center;
+	width:60%;
+	margin-top: 4%;
+	margin-left: 12%;
+	margin-bottom:20px;
+}
+
+/* Configuração do Titulo do Conteudo da p/esporte */
+#title-esporte{
+
+	background-color: #F5F5F5;
+	box-shadow: 3px 2px 5px #828282;
+	border-radius: 3px;
+	font-family: 'Slabo 27px', serif;
+	text-align: center;
+	width:60%;
+	margin-top: 4%;
+	margin-left: 12%;
+}
+
+/* Configuração do sub-Titulo do Conteudo da p/esporte*/
+#sub-esporte{
+
+	background-color: #F5F5F5;
+	box-shadow: 3px 2px 5px #828282;
+	border-radius: 3px;
+	text-align: center;
+	width: 38%;
+	font-size: 17px;
+	margin-top: 0;
+	margin-left: 25%;
+	margin-bottom:20px;
+}
+
+/* Configuração do Titulo do Conteudo da p/finança pessoal */
+#title-fpessoal{
+
+	background-color: #F5F5F5;
+	box-shadow: 3px 2px 5px #828282;
+	border-radius: 3px;
+	font-family: 'Slabo 27px', serif;
+	text-align: center;
+	width:60%;
+	margin-top: 4%;
+	margin-left: 12%;
+}
+
+/* Configuração do sub-Titulo do Conteudo da p/finança pessoal*/
+#sub-fpessoal{
+
+	background-color: #F5F5F5;
+	box-shadow: 3px 2px 5px #828282;
+	border-radius: 3px;
+	text-align: center;
+	color: #999;
+	width: 40%;
+	font-size: 17px;
+	margin-top: 0;
+	margin-left: 22%;
+	margin-bottom:20px;
+}
+
+/* Configuração do Titulo do Conteudo da p/finança para empresas */
+#title-fempresa{
+
+	background-color: #F5F5F5;
+	box-shadow: 3px 2px 5px #828282;
+	border-radius: 3px;
+	font-family: 'Slabo 27px', serif;
+	text-align: center;
+	width:60%;
+	margin-top: 4%;
+	margin-left: 12%;
+}
+
+/* Configuração do sub-Titulo do Conteudo da p/finanças para empresas*/
+#sub-fempresa{
+
+	background-color: #F5F5F5;
+	box-shadow: 3px 2px 5px #828282;
+	border-radius: 3px;
+	text-align: center;
+	color: #999;
+	width: 40%;
+	font-size: 17px;
+	margin-top: 0;
+	margin-left: 22%;
+	margin-bottom:20px;
+}
+
+/* Configuração do Titulo do Conteudo da p/educacao */
+#title-educacao{
+
+	background-color: #F5F5F5;
+	box-shadow: 3px 2px 5px #828282;
+	border-radius: 3px;
+	font-family: 'Slabo 27px', serif;
+	text-align: center;
+	width:58%;
+	margin-top: 4%;
+	margin-left: 14%;
+	margin-bottom:3%;
+}
+/* Configuração do Texto da tabela noticias*/
+#txt-rigth{
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	color: #1C1C1C;
+}
+
+/* Confguração Titulo p/pesquisa*/
+#titulo-pesquisa{
+
+	box-shadow: 3px 2px 5px #828282;
+	border-radius: 3px;
+	font-family: Impact, Charcoal, sans-serif;
+	-webkit-text-stroke-width: 1px;
+  	-webkit-text-stroke-color:#F5F5F5;
+	text-align: center;
+	width:32%;
+	margin-top: 4%;
+	margin-left: 35%;
+	margin-bottom:3%;
+}
+
+@media(max-width: 1366px){
+
+/* Configuração do Titulo do Conteudo da p/Index*/
+#title-index{
+
+	background-color: #F5F5F5;
+	box-shadow: 3px 2px 5px #828282;
+	border-radius: 3px;
+	font-family: 'Slabo 27px', serif;
+	width:47%;
+	margin-top: 8%;
+	margin-left: 20%;
+}
+
+
+/* Configuração do Texto da tabela noticias*/
+#txt-rigth{
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	color: #1C1C1C;
+ }
+}
+
+@media(max-width: 600px){
+
+/* Configuração do Texto da tabela noticias-display:none; remove o texto ao diminuir a tela*/
+#txt-rigth{
+
+		display: none;
+}
+
+/* Configuração do Titulo do Conteudo da p/Index*/
+#title-index{
+
+	background-color: #F5F5F5;
+	box-shadow: 3px 2px 5px #828282;
+	border-radius: 3px;
+	font-family: 'Slabo 27px', serif;
+	font-size: 22px;
+	width:90%;
+	margin-top: 8%;
+	margin-left: 4%;
+}
+
+/* Configuração da Div (Conteúdo)*/
+#txtdiv{
+
+
+	background-color: #EEE9E9;
+	box-shadow: 5px 5px 5px #828282;
+	padding-top:;
+	width: 90%;
+	height: auto;
+	margin-left: 4%;
+	margin-bottom: 50px;
+}
+#txtdiv-index{
+
+	background-color: #EEE9E9;
+	box-shadow: 5px 5px 5px #828282;
+	padding-top:;
+	width: 90%;
+	height: auto;
+	margin-left: 4%;
+	margin-bottom: 50px;
+
+}
+/* Configuração do texto do Conteúdo*/
+#txtpandemia {
+
+	float: center;
+	text-align: left;
+	font-family:'Source Sans Pro', sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+/* Configuração do Titulo do Conteudo da p/animais*/
+#title-pet{
+	background-color: #F5F5F5;
+	box-shadow: 3px 2px 5px #828282;
+	border-radius: 3px;
+	font-family: 'Slabo 27px', serif;
+	text-align: center;
+	width:90%;
+	margin-top: 5%;
+	margin-left: 4%;
+}
+
+/* Configuração do sub-Titulo do Conteudo da p/animais*/
+#sub-pet{
+
+	background-color: #F5F5F5;
+	box-shadow: 3px 2px 5px #828282;
+	border-radius: 3px;
+	text-align: center;
+	width:70%;
+	font-size: 17px;
+	margin-top: 0;
+	margin-left: 4%;
+	margin-bottom:20px;
+}
+
+/* Configuração do Titulo do Conteudo da p/alimentacao*/
+#title-alimentacao{
+
+	background-color: #F5F5F5;
+	box-shadow: 3px 2px 5px #828282;
+	border-radius: 3px;
+	font-family: 'Slabo 27px', serif;
+	text-align: center;
+	width:90%;
+	margin-top: 5%;
+	margin-left: 4%;	
+}
+
+/* Configuração do sub-Titulo do Conteudo da p/alimentacao*/
+#sub-alimentacao{
+
+	background-color: #F5F5F5;
+	box-shadow: 3px 2px 5px #828282;
+	border-radius: 3px;
+	text-align: center;
+	width: 90%;
+	font-size: 14px;
+	margin-top: 0;
+	margin-left: 4%;
+	margin-bottom:25px;
+}
+
+/* Configuração do Titulo do Conteudo da p/cuidados*/
+#title-cuidados{
+	
+	background-color: #F5F5F5;
+	box-shadow: 3px 2px 5px #828282;
+	border-radius: 3px;
+	font-family: 'Slabo 27px', serif;
+	text-align: center;
+	width:90%;
+	margin-top: 4%;
+	margin-left: 4%;
+	margin-bottom:20px;
+}
+
+/* Configuração do Titulo do Conteudo da p/esporte*/
+#title-esporte{
+
+	background-color: #F5F5F5;
+	box-shadow: 3px 2px 5px #828282;
+	border-radius: 3px;
+	font-family: 'Slabo 27px', serif;
+	text-align: center;
+	width:90%;
+	margin-top: 4%;
+	margin-left: 4%;
+}
+
+/* Configuração do sub-Titulo do Conteudo da p/esporte*/
+#sub-esporte{
+
+	background-color: #F5F5F5;
+	box-shadow: 3px 2px 5px #828282;
+	border-radius: 3px;
+	text-align: center;
+	width: 90%;
+	font-size: 16px;
+	margin-top: 0;
+	margin-left: 4%;
+	margin-bottom:20px;
+}
+
+/* Configuração do Titulo do Conteudo da p/finança pessoal*/
+#title-fpessoal{
+
+	background-color: #F5F5F5;
+	box-shadow: 3px 2px 5px #828282;
+	border-radius: 3px;
+	font-family: 'Slabo 27px', serif;
+	text-align: center;
+	width:90%;
+	margin-top: 4%;
+	margin-left: 4%;
+}
+
+/* Configuração do sub-Titulo do Conteudo da p/finança pessoal*/
+#sub-fpessoal{
+
+	background-color: #F5F5F5;
+	box-shadow: 3px 2px 5px #828282;
+	border-radius: 3px;
+	text-align: center;
+	color: #999;
+	width: 90%;
+	font-size: 17px;
+	margin-top: 0;
+	margin-left: 4%;
+	margin-bottom:20px;
+}
+
+/* Configuração do Titulo do Conteudo da p/finança para empresas*/
+#title-fempresa{
+
+	background-color: #F5F5F5;
+	box-shadow: 3px 2px 5px #828282;
+	border-radius: 3px;
+	font-family: 'Slabo 27px', serif;
+	text-align: center;
+	width:90%;
+	margin-top: 4%;
+	margin-left: 4%;
+}
+
+/* Configuração do sub-Titulo do Conteudo da p/finanças para empresas*/
+#sub-fempresa{
+
+	background-color: #F5F5F5;
+	box-shadow: 3px 2px 5px #828282;
+	border-radius: 3px;
+	text-align: center;
+	color: #999;
+	width: 90%;
+	font-size: 17px;
+	margin-top: 0;
+	margin-left: 4%;
+	margin-bottom:20px;
+}
+
+/* Configuração do Titulo do Conteudo da p/educacao*/
+#title-educacao{
+
+	background-color: #F5F5F5;
+	box-shadow: 3px 2px 5px #828282;
+	border-radius: 3px;
+	font-family: 'Slabo 27px', serif;
+	text-align: center;
+	width:90%;
+	margin-top: 4%;
+	margin-left: 4%;
+	margin-bottom:4%;
+ }
+
+ /* Confguração Titulo p/pesquisa*/
+#titulo-pesquisa{
+
+	box-shadow: 3px 2px 5px #828282;
+	border-radius: 3px;
+	font-family: Impact, Charcoal, sans-serif;
+	-webkit-text-stroke-width: 1px;
+  	-webkit-text-stroke-color:#F5F5F5;
+	text-align: center;
+	width:90%;
+	margin-top: 8%;
+	margin-left: 4%;
+	margin-bottom:5%;
+ }
+}

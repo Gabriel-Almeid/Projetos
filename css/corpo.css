@@ -1,0 +1,171 @@
+
+body{
+
+	margin: 0;
+	width: 100%;
+}
+
+figure {
+    margin: 0;
+}
+
+/* Configuração do Titulo-Site*/
+#titulo{
+
+	text-align: center;
+	font-size: 60px;
+	font-family:;
+}
+/* Configuração do Sub-Titulo-Site*/
+#sub-titulo{
+	text-align: center;
+	margin-left: 22%;
+	font-size: 20px;
+}
+/* Div(Titulo e Sub-Titutlo)*/
+#div-titulo{
+
+	float: right;
+	margin-right: 35%; 
+	padding-top: 50px;
+
+}
+/* Configuração Da Div(Rede Social)*/
+#redes{
+		
+	width: 100%;
+	height: auto;
+	float: right;
+	top: 10px;
+	position: absolute;
+	margin-top: 10px;
+	right: 0;
+    margin-right: 20px;
+}
+/* Configuração da Div da Tabela de Noticias*/
+#table-rigth{
+
+	width: 47%;
+	display: inline-block;
+	position: absolute;
+	float: right;
+	top: 33%;
+	right: 0;
+	left: 53%;
+	bottom: 0;
+	margin:auto;
+	padding: 50px;	
+}
+/*Configuração da tr da Tabela Noticias*/
+#tr-noticias{
+
+	display: block;
+	margin: 30px;
+}
+/*Configuração da td da Tabela Noticias*/
+#td-noticias{
+
+	width: 60%;
+	height: 50px;
+	padding-right: 30px;
+}
+/* Configuração da Div da Tabela de Noticias*(conteudo)*/
+#lateral-conteudo{
+	width:26%;
+	position: absolute;
+	float: right;
+	top: 50%;
+	right: 0;
+	left: 73%;
+	bottom: 0;
+	margin:auto;
+	padding: px;
+	margin-left:;	
+}
+	
+/* Configuração da Responsivide */
+@media(max-width: 600px){
+
+/* Configuração do Titulo-Site*/
+#titulo{
+
+	text-align: center;
+	font-size: 20px;
+ }
+/* Configuração do Sub-Titulo-Site*/
+#sub-titulo{
+
+	text-align: center;
+	margin-left: 18%;
+	font-size: 8px;
+ }
+/* Div(Titulo e Sub-Titutlo)*/
+#div-titulo{
+	
+	float: right;
+	margin-right: 35%; 
+	padding-top: 40px;
+ }
+ /*Configuração da td da Tabela Noticias, display:none; remove a tabela ao diminuir a tela*/
+ #td-noticias{
+
+	display: none;
+}
+}
+@media(max-width:720px){
+
+/* Configuração do Titulo-Site*/
+#titulo{
+
+	text-align: center;
+	font-size: 16px;
+ }
+/* Configuração do Sub-Titulo-Site*/
+#sub-titulo{
+
+	text-align: center;
+	margin-left: 10%;
+	font-size: 7px;
+ }
+/* Div(Titulo e Sub-Titutlo)*/
+#div-titulo{
+	
+	float: right;
+	margin-right: 33%; 
+	padding-top: 40px;
+ }
+ /*Configuração da td da Tabela Noticias, display:none; remove a tabela ao diminuir a tela*/
+ #td-noticias{
+
+	display: none;
+}
+/* Configuração do Texto da tabela noticias-display:none; remove o texto ao diminuir a tela*/
+#txt-rigth{
+
+	display: none;
+}
+
+
+}
+@media (max-width: 1366px){
+/* Configuração da Div da Tabela de Noticias*/	
+#table-rigth{
+
+	width: 47%;
+	display: inline-block;
+	position: absolute;
+	float: right;
+	top: 40%;
+	right: 0;
+	left: 53%;
+	bottom: 0;
+	margin:auto;	
+}
+/*Configuração da td da Tabela Noticias*/
+#td-noticias{
+
+	width: 60%;
+	height: 50px;
+	padding-right: 20px;
+ }
+}
